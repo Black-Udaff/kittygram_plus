@@ -10,7 +10,5 @@ router.register('cats', CatViewSet)
 router.register('owners', OwnerViewSet)
 
 urlpatterns = [
-
-    
     path('', include(router.urls)),
 ]
